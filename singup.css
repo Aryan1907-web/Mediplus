@@ -1,0 +1,64 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9d9f0; /* Very light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .signup-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #1e90ff;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #add8e6; /* Light blue border */
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Signup Button */
+  .signup-btn {
+    background-color: #1e90ff; /* Light blue */
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #187bcd; /* Darker blue on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

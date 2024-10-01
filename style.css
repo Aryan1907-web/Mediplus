@@ -4170,3 +4170,41 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+/* Signup Button Style */
+.signup-btn {
+	background-color: #07a4d9; /* Light blue */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .signup-btn:hover {
+	background-color: #87cefa; /* Slightly darker light blue on hover */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Signup Button Style */
+.login-btn {
+	background-color: #bdd9e2; /* Light blue */
+	border: none;
+	color: rgb(15, 15, 15);
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .login-btn:hover {
+	background-color: #87cefa; /* Slightly darker light blue on hover */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
